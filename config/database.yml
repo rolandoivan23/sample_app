@@ -16,9 +16,7 @@ test:
   timeout: 5000
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: ejemplo_heroku
+  adapter: sqlite3
+  database: db/production.sqlite3
   pool: 5
-  username: usuarioheroku
-  password: tron9000
+  timeout: 5000
