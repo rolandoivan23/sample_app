@@ -41,3 +41,6 @@ end
 #   gem 'webrat'
 # end
 gem "rake", "0.8.7"
+
+ gem 'therubyracer-heroku', '0.8.1.pre3'
+
