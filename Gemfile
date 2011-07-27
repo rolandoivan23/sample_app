@@ -40,4 +40,3 @@ end
 # group :development, :test do
 #   gem 'webrat'
 # end
-gem "rake", "0.8.7"
